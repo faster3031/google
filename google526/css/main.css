@@ -65,6 +65,7 @@ nav a #login {
 .main_wrap {
   text-align: center;
   margin-top: 200px;
+  position: relative;
 }
 .search_bar {
   margin: 30px auto;
@@ -112,4 +113,52 @@ nav a #login {
   /* background: #fff; */
   background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.imglogo{
+  height: 70px;
+}
+.imglogo img{
+  width: 40px;
+  height: 40px;
+}
+.imglogo a{
+  text-decoration: none;
+  margin: 30px;
+  position: relative;
+}
+.imglogo >a >span{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.2);
+  top: -20px;
+  left: -15px;
+  opacity: 0.5;
+} 
+.imglogo >a >2span:hover{
+  opacity: 1;
+}
+.imgtext{
+  height: 50px;;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+.imgtext p{
+  margin: 0 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60px;
+}
+.imglogo>a>#ss{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background-color: rgba(0,0,0,0.2);
+  top: -20px;
+  left: -15px;
+  opacity: 1;
 }
